@@ -1,8 +1,8 @@
-import React from 'react';
-
 function Header() {
   return (
-    <div>Header</div>
+    <header>
+      <h1>Sistema Solar</h1>
+    </header>
   );
 }
 
