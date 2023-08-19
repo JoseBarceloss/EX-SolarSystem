@@ -1,5 +1,5 @@
-import React from 'react';
 import Header from './components/Header';
+import Missions from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
       <Header />
       <SolarSystem />
+      <Missions />
     </>
   );
 }
