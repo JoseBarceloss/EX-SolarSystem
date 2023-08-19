@@ -6,13 +6,13 @@ function Missions() {
   return (
     <div data-testid="missions">
       <Title headline="Missões" />
-      {missions.map((mission) => (
+      {missions.map(({ name, year, country, destination }) => (
         <MissionCard
-          key={ mission.name }
-          name={ mission.name }
-          year={ mission.year }
-          country={ mission.country }
-          destination={ mission.destination }
+          key={ name }
+          name={ name }
+          year={ year }
+          country={ country }
+          destination={ destination }
         />
       ))}
     </div>
