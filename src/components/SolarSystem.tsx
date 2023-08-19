@@ -15,7 +15,7 @@ function SolarSystem() {
           planetImage={ image }
         />
       ))}
-      ;
+
     </div>
   );
 }
